@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venta</title>
+</head>
+<body>
+	<center><h1>Venta en linea</h1></center>
+	<form method="post" enctype="text/plain">
+		<fieldset>
+			<legend>Información general</legend>
+
+			<center>
+
+			<label for="Nombre"> Nombre:</label>
+			<label for="apellidop">Apellido paterno:</label>
+			<label for="apellidom">Apellido materno:</label>
+			<br>
+
+			<input type="text" name="Nombre" size="15" id="nombre" title="Nombre" placeholder="Nombre">
+			<input type="text" name="apellidop" size="15" id="apellidop" title="Apellido paterno" placeholder="Apellido paterno" >
+			<input type="text" name="apellidom" size="15" id="apellidom" title="Apellido materno" placeholder="Apellido materno" >
+			<br>
+			
+			<label for="usuario"> Nombre de usuario:</label>
+			<label for="pass">Contraseña:</label>
+			<label for="fecha">Fecha de nacimiento:</label>
+			<br>
+
+			<input type="text" name="usuario" required size="15" id="usuario" title="Nombre de usuario" placeholder="Nombre de usuario">
+			<input type="pasword" name="pass" required size="15" id="pass" title="Password" placeholder="Password">
+			<input type="date" size="15" name="fechan" id="fechan" ><br>
+			</center>
+
+		</fieldset>
+		<fieldset>
+			<legend>Datos de facturación</legend>
+			<center>
+
+			<label>País:</label>	
+			<label>Ciudad:</label>
+			<label>Calle:</label>
+			<br>
+			<select>	
+					<option value="1">México </option>
+					<option value="2">Estados Unidos</option>
+					<option value="3">Canadá</option>
+					<option value="4">Guatemala</option>
+					<option value="5">Elsalvador</option>	
+			</select>
+			<select>	
+					<option value="1">México </option>
+					<option value="2">San Luis Potosí</option>
+					<option value="3">Guerrero</option>
+					<option value="4">Chihuahua</option>
+					<option value="5">Matehuala</option>
+					<option value="5">Cd. Valles</option>		
+			</select>
+			<input type="text" name="Calle"  title="Calle" placeholder="Calle">
+
+			<br>
+
+			<label>Número de casa:</label>
+			<label>Colonia</label>
+			<label>E-mail</label>
+			<br>
+
+			<input type="num" name="num" title="Número exterior" placeholder="Número exterior">
+			<input type="text" name="Colonia" title="Colonia" placeholder="Colonia">
+			<input type="text" name="E-mail" title="E-mail" placeholder="E-mail" required>
+			<br>
+
+			<label>R.F.C.</label>
+			<label>C.P.</label>
+			<br>
+			<input type="text" name="rfc" title="R.F.C" placeholder="R.F.C." required>
+			<input type="num" name="cp" title="C.P." placeholder="C.P.">
+
+			<input type="submit" name="enviar" id="Enviar" value="Enviar">
+			<input type="reset" name="reset" id="Restablecer" value="Restablecer">
+
+			</center>
+		</fieldset>
+	</form>	
+</body>
+</html>

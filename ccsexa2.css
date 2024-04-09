@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px;
+    text-align: left;
+}
+
+section {
+    margin: 20px 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+footer{
+    background-color: red;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    bottom:0px;
+}
+
+
+nav a {
+    margin-right: 10px;
+    color: white;
+}
+
+article {
+    padding: 20px;
+}
+
+aside {
+    background-color: red;
+    padding: 20px;
+    float: right;
+    width: 200px;
+
+}
+
+ul {
+  list-style-type: none;
+  text-align: center
+}
+
+li {
+  background-color: red;
+  border-right-color: : white;
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  color: black;
+  padding: 0 px;
+  text-decoration: none;
+}
+
+
+form {
+    margin: 20px 0;
+}
+
+form input[type="text"], form input[type="password"] {
+    
+    margin: 10px 0;
+}
+
+p{
+    width: 30%;
+}
+footer{
+  float: 
+}
